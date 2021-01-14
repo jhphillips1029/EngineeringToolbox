@@ -47,7 +47,7 @@ If you have already taken EMEC203,
 
 #### Learning Python
 
-1. [w3schools Tutorial](https://www.w3schools.com/python/)
+1. <a href="https://www.w3schools.com/python/" target="_blank">w3schools Tutorial</a>
 	* w3schools is generally where I go to touch up on my syntax if I've been away from Python for a while. The layout is very user-friendly and includes several interactive examples on the site itself.
 
 2. [MATLAB to Python Primer](https://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
