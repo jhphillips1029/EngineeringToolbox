@@ -36,6 +36,10 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 
 ### stressInvariants
 
+**stressInvariants(**_stressTensor_**)**
+
+Determines the stress invariants given a 3x3 tensor describing the state of stress.
+
 |                 |                                     |
 |-----------------|-------------------------------------|
 | **Parameters:** | **stressTensor** : __*array_like*__ |
@@ -46,6 +50,10 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 
 ### octohedralStresses
 
+**octohedralStresses(**_stressTensor_**)**
+
+Determines the octohedral stresses given a 3x3 tensor describing the state of stress.
+
 |                 |                                     |
 |-----------------|-------------------------------------|
 | **Parameters:** | **stressTensor** : __*array_like*__ |
@@ -55,6 +63,10 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 | **Raises:** | __*None*__ |
 
 ### partition
+
+**partition(**_arr, low, high_**)**
+
+Helper function used in quickSort().
 
 |                 |                                     |
 |-----------------|-------------------------------------|
@@ -70,6 +82,10 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 
 ### quickSort
 
+**quickSort(**_arr, low, high_**)**
+
+Uses the quick sort algorithm to sort an array of objects.
+
 |                 |                                     |
 |-----------------|-------------------------------------|
 | **Parameters:** | **arr** : __*array_like*__ |
@@ -82,6 +98,10 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 | **Raises:** | __*None*__ |
 
 ### generateMohrsCircle
+
+**generateMohrsCircle(**_stressTensor,filename=None,thetaCutPlane=None,show=[0]_**)**
+
+Determines the quantities necessary to plot a Mohr's Circle.
 
 |                 |                                     |
 |-----------------|-------------------------------------|
@@ -98,6 +118,10 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 | **Raises:** | __*None*__ |
 
 ### plotMohrsCircle
+
+**plotMohrsCircle(**_filename,sigmaXX,sigmaYY,tauXy,center,radius,sigmaP1,sigmaP2,thetaP1,phi=None,alpha=None,sigma1=None,sigma2=None,tau1=None,thetaCutPlane=None,show=[0],units='MPa'_**)**
+
+Helper function to plot a Mohr's Circle.
 
 |                 |                                     |
 |-----------------|-------------------------------------|
@@ -120,15 +144,15 @@ Determines the principle stresses given a 3x3 tensor describing the state of str
 | | **thetaP1** | __*float*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The first principle angle. |
 | | **phi** | __*float, optional*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;An angle. Default is None. |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Angle necessary for maximum in-plane stress for cut-plane. Default is None. |
 | | **alpha** | __*float, optional*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;Another angle. Default is None. |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Adjusted angle for cut-plane. Default is None. |
 | | **sigma1** | __*float, optional*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;A stress. Default is None. |
+| | &nbsp;&nbsp;&nbsp;&nbsp;First stress in cut-plane. Default is None. |
 | | **sigma2** | __*float, optional*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;Another stress. Default is None. |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Second stress in cut-plane. Default is None. |
 | | **tau1** | __*float, optional*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;Yet another stress. Default is None. |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Shear stress in cut-plane. Default is None. |
 | | **thetaCutPlane** | __*float, optional*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Angle at which to apply cut-plane analysis. Default is None. |
 | | **show** | __*list, optional*__ |
