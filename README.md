@@ -19,27 +19,11 @@
 * EngineeringMechanics
 	* AdMech
 		* Convert to solver file
-	* APIs
-		* Necessary in all sub-folders
-	* README.md
-		* Description of sub-folders
-* Materials
-	* APIs
-		* Necessary in all sub-folders
-	* README.md
-		* Description of sub-folders
+		* API
 * Miscellaneous
 	* Stats
 		* Convert to solver file
-	* APIs
-		* Necessary in all sub-folders
-	* README.md
-		* Description of sub-folders
-* Thermodynamics
-	* APIs
-		* Necessary in all sub-folders
-	* README.md
-		* Necessary in all sub-folders
+		* API
 	
 ## Overview
 
@@ -47,7 +31,7 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
-At this time, there are no new updates. This is a brand new repository. Explanations of updates will be posted here.
+_14 Jan 2020:_ Folder descriptions added. APIs added for existing python modules.
 
 #### History
 
