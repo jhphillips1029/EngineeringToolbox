@@ -1,7 +1,7 @@
 class Comp:
     def __init__(self,start,end=None,compType=None,labels=None,arrowType=None,node=None):
         if compType == None and node == None:
-            raise "must provide component or node."
+            raise TypeError("must provide component or node.")
         self.compType = compType
         self.start = start
         self.end = end
