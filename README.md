@@ -1,27 +1,32 @@
-# WELCOME
+# EngineeringToolbox
 
-Table of Contents
-1. [Introduction](#introduction)
-2. []
+###Table of Contents
+* [Overview](#overview)
+	* [Updates](#updates)
+	* [History](#history)
+	* [Courses Covered](#courses-covered)
+* [Using the Code](#using-the-code)
+	* [Learning Python](#learning-python)
+	* [Downloading](#downloading)
+	* [Importing a Module](#importing-a-module)
+	
+### Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi. Ac tortor vitae purus faucibus. Lacus luctus accumsan tortor posuere. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Consequat interdum varius sit amet. Consectetur libero id faucibus nisl tincidunt. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Aenean et tortor at risus viverra adipiscing at. Sagittis id consectetur purus ut.
+This is a collection of code I have put together in my spare time. It oringinates from coursework completed in the Mechanical Engineering program at Montana State University. I have made this code available for anyone it may help; however, I do not condone cheating or any practices that might violate MSU's Student Code of Conduct or similar documents at other universities or institutes of higher learning. Basically, just don't cheat.
 
-Urna nec tincidunt praesent semper feugiat. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Fermentum et sollicitudin ac orci phasellus egestas tellus. Vitae semper quis lectus nulla at volutpat diam. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. At auctor urna nunc id cursus metus aliquam. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Rhoncus aenean vel elit scelerisque mauris pellentesque. Lacinia quis vel eros donec ac odio.
+#### Updates
 
-Auctor augue mauris augue neque gravida in fermentum et. Felis eget velit aliquet sagittis id consectetur. Euismod lacinia at quis risus. Risus commodo viverra maecenas accumsan lacus vel facilisis. Magna eget est lorem ipsum dolor. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Eget egestas purus viverra accumsan in nisl. In fermentum posuere urna nec tincidunt praesent semper. Etiam erat velit scelerisque in dictum non consectetur a erat. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Euismod quis viverra nibh cras pulvinar mattis nunc sed.
+At this time, there are no new updates. This is a brand new repository. Explanations of updates will be posted here.
 
-Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Maecenas pharetra convallis posuere morbi. Risus quis varius quam quisque id diam vel quam. Arcu cursus euismod quis viverra nibh cras. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Turpis nunc eget lorem dolor sed viverra. Sodales ut etiam sit amet nisl purus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Sed sed risus pretium quam vulputate. Ac turpis egestas maecenas pharetra convallis posuere morbi. Aliquam vestibulum morbi blandit cursus risus at. Ipsum consequat nisl vel pretium lectus quam id. Amet facilisis magna etiam tempor orci eu lobortis elementum. Sed enim ut sem viverra aliquet eget sit amet tellus.
+#### History
 
-Magna eget est lorem ipsum dolor. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Aliquam purus sit amet luctus venenatis lectus. Praesent semper feugiat nibh sed. Quam viverra orci sagittis eu. Sapien eget mi proin sed. Et leo duis ut diam quam. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ac tortor dignissim convallis aenean et tortor. Pellentesque nec nam aliquam sem et tortor consequat id. Urna molestie at elementum eu facilisis sed. Quam elementum pulvinar etiam non quam. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Euismod in pellentesque massa placerat duis ultricies lacus. Iaculis at erat pellentesque adipiscing commodo. Pellentesque pulvinar pellentesque habitant morbi. Non tellus orci ac auctor augue mauris augue neque gravida.
+The code contained here was written to help me complete assignments in the ME program at MSU. It began with the realization that most of the problems in EGEN201 (Statics) were fairly repetitive and should be easily codable. I ended up going overboard and devoting a substantial amount of time to writing a function that would solve for reaction forces for any statically determinate system.
 
-Sed faucibus turpis in eu mi. Felis bibendum ut tristique et egestas. Leo a diam sollicitudin tempor. Augue interdum velit euismod in pellentesque massa placerat. Sed vulputate mi sit amet mauris commodo quis imperdiet. Orci a scelerisque purus semper eget duis at tellus. Vitae congue mauris rhoncus aenean vel elit. Sapien faucibus et molestie ac feugiat sed lectus. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Faucibus vitae aliquet nec ullamcorper. Urna porttitor rhoncus dolor purus non enim. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Gravida dictum fusce ut placerat orci. Nec dui nunc mattis enim ut. Nibh ipsum consequat nisl vel pretium lectus quam. Sit amet porttitor eget dolor morbi non. Lorem sed risus ultricies tristique nulla aliquet. Sit amet justo donec enim diam vulputate ut pharetra sit. Mattis nunc sed blandit libero volutpat sed. At quis risus sed vulputate odio.
+This helped me see problems in other classes that could be simplified with complex-ish code. Why do something for 6 minutes if you could automate it in 6 hours? You only need 10 repetitions to break even. I proceeded to create "solvers" for common problems for several other classes and continued to do so the next semester.
 
-Nulla facilisi cras fermentum odio. Tincidunt arcu non sodales neque sodales ut etiam. Quam pellentesque nec nam aliquam sem et. Facilisis magna etiam tempor orci eu lobortis elementum nibh. Scelerisque varius morbi enim nunc faucibus. A scelerisque purus semper eget duis. Eros in cursus turpis massa tincidunt dui. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Ac felis donec et odio pellentesque diam volutpat commodo. Laoreet non curabitur gravida arcu. Ligula ullamcorper malesuada proin libero. Tristique senectus et netus et malesuada. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Eros donec ac odio tempor orci. Tristique sollicitudin nibh sit amet commodo. Nec feugiat nisl pretium fusce id velit ut. Varius vel pharetra vel turpis nunc eget lorem. Aliquet nibh praesent tristique magna sit amet purus gravida. Vitae tempus quam pellentesque nec nam aliquam sem et.
+#### Courses Covered
 
-Sed sed risus pretium quam vulputate dignissim suspendisse in est. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Eget duis at tellus at urna condimentum. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Mauris nunc congue nisi vitae suscipit. Neque sodales ut etiam sit amet nisl purus in mollis. Tempus imperdiet nulla malesuada pellentesque. Vulputate odio ut enim blandit volutpat maecenas volutpat. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Leo integer malesuada nunc vel. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. A diam sollicitudin tempor id eu nisl nunc.
-
-Sed velit dignissim sodales ut eu. Urna neque viverra justo nec ultrices. Quam nulla porttitor massa id neque. Odio facilisis mauris sit amet massa vitae tortor. Sem integer vitae justo eget magna fermentum. A cras semper auctor neque. Imperdiet proin fermentum leo vel orci porta non pulvinar. Porttitor leo a diam sollicitudin. Cursus risus at ultrices mi tempus imperdiet nulla. Lorem mollis aliquam ut porttitor leo a.
-
-Nulla aliquet enim tortor at auctor. Aenean euismod elementum nisi quis eleifend quam adipiscing. Aenean euismod elementum nisi quis eleifend quam. Eget arcu dictum varius duis at consectetur lorem. Tempus egestas sed sed risus pretium quam vulputate dignissim. Nullam ac tortor vitae purus. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Vestibulum morbi blandit cursus risus at ultrices. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Suspendisse in est ante in nibh. Sit amet massa vitae tortor condimentum lacinia quis vel. Felis donec et odio pellentesque. Sed velit dignissim sodales ut eu sem integer vitae justo. Pellentesque sit amet porttitor eget dolor morbi. Neque viverra justo nec ultrices dui sapien eget mi.
-
-### Introduction
+| Course  |  Name | Description of Code|
+|---------|-------|--------------------|
+| EGEN201 |Statics|Solving statically determinate setups, trusses, and shear-moment diagrams|
+| EMEC250 |Materials Lab| stuff |
