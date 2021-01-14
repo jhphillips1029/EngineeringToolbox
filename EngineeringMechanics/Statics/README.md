@@ -44,7 +44,7 @@ This module requires the following modules to be installed already:
 
 ## Vector
 
-### __init__
+### \__init__
 
 **\__init__(**_self, vecType, a1, a2, a3, pointOfAction, tol=1e-12_**)**
 
@@ -54,17 +54,17 @@ Constructor method for Vector class.
 |-----------------|-------------------------------------|
 | **Parameters:** | **self** : __*self*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; N/A |
-| | **vecType** | __*string*__ |
+| | **vecType** : __*string*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Vector is defined using Cartesian ('c','Cartesian') or Magnitude ('m','Magnitude'). |
-| | **a1** | __*float,symbol*__ |
+| | **a1** : __*float,symbol*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Fist component. |
-| | **a2** | __*float,symbol*__ |
+| | **a2** : __*float,symbol*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Second component. |
-| | **a3** | __*float,symbol*__ |
+| | **a3** : __*float,symbol*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Third component. |
-| | **pointOfAction** | __*tuple*__ |
+| | **pointOfAction** : __*tuple*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Tuple defining point upon which force is acting. |
-| | **tol** | __*float, optional*__ |
+| | **tol** : __*float, optional*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Tolerance for rounding values while defining object. |
 | **Returns:** | **None** : __*None*__ |
 | **Raises:** | __*None*__ |
@@ -92,7 +92,7 @@ Adds two vectors.
 |-----------------|-------------------------------------|
 | **Parameters:** | **f1, f2** : __*Vector*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The two vectors to be added. |
-| **Returns:** | **<Vector>** : __*Vector*__ |
+| **Returns:** | **Vector** : __*Vector*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The summation of the two vectors. |
 | **Raises:** | __*None*__ |
 
@@ -106,7 +106,7 @@ Returns the magnitude of the vector.
 |-----------------|-------------------------------------|
 | **Parameters:** | **self** : __*self*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;N/A |
-| **Returns:** | **<float>** : __*float*__ |
+| **Returns:** | **float** : __*float*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The magnitude of the vector. |
 | **Raises:** | __*None*__ |
 
@@ -162,7 +162,7 @@ Multiplies a vector by a scalar.
 |-----------------|-------------------------------------|
 | **Parameters:** | **v** : __*Vector*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The vector to be scaled. |
-| | **s** | __*float*__ |
+| | **s** : __*float*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The value by which to scale the vector. |
 | **Returns:** | **<Vector>** : __*Vector*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The scaled vector. |
@@ -176,9 +176,9 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 
 |                 |                                     |
 |-----------------|-------------------------------------|
-| **Parameters:** | **self** : __*self*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;N/A |
-| | **point** | __**__ |
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -190,7 +190,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -202,7 +202,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -214,7 +214,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -226,7 +226,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -240,7 +240,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -252,7 +252,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -266,7 +266,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -278,7 +278,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -290,7 +290,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -302,7 +302,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -314,7 +314,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -326,7 +326,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -338,7 +338,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -350,7 +350,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -364,7 +364,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -376,7 +376,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -388,7 +388,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -400,7 +400,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -412,7 +412,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
@@ -424,8 +424,9 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 |-----------------|-------------------------------------|
 | **Parameters:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
-| | **** | __**__ |
+| | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Returns:** | **** : __**__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Raises:** | __**__ |
+
