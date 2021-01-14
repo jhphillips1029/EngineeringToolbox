@@ -68,13 +68,13 @@ You don't necessarily need to be an expert in Python to be able to use this code
 
 Here are instructions on downloading Python, Anaconda, and this repository. Obviously, you need Python to run the Python code, so that's a very important part of this. This comes with it's own IDE named IDLE. This is a decent way to start, but I vastly prefer Anaconda over IDLE. Anaconda runs in your browser and provides a superior (in my opinion) user experience. Of course, it is up to you. And obviously, you'll want to download this repository if you want to use it.
 
-###### Python
+##### Python
 
 [Python](https://www.python.org/downloads/)
 
 Here is the download link for Python from the official website. Follow the instructions there for a successful download.
 
-###### Anaconda
+##### Anaconda
 
 [Anaconda](https://www.anaconda.com/products/individual)
 
@@ -82,7 +82,7 @@ Here is the download link for Anaconda from their website. Follow the instructio
 
 *One note of importance: Anaconda will override the default Python libraries, so installing libraries with Anaconda is different than vanilla Python. Just search Google for 'conda install [package name]' for the install commands.*
 
-###### This Repository
+##### This Repository
 
 If you scroll back up to the top of the page, you will see a prominent green button labeled 'Code'. Click it, and on the drop down, choose 'Download Zip'. Download this to your workspace folder and unzip it.
 
