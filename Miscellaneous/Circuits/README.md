@@ -1,4 +1,4 @@
-# McnxSolver API (V2)
+# CiruitMaker API (V1)
 
 # Table of Contents
 * [Dependencies](#dependencies)
