@@ -25,6 +25,7 @@
 	* [addExtForces](#addextforces)
 	* [getAdjacentJoints](#getadjacentjoints)
 	* [solveByJoints](#solvebyjoints)
+* [Methods](#methods)
 * [sumForces](#sumforces)
 * [sumMoments](#summoments)
 * [solve](#solve)
@@ -45,120 +46,386 @@ This module requires the following modules to be installed already:
 
 ### __init__
 
-text
+**\__init__(**_self, vecType, a1, a2, a3, pointOfAction, tol=1e-12_**)**
+
+Constructor method for Vector class.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **self** : __*self*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; N/A |
+| | **vecType** | __*string*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Vector is defined using Cartesian ('c','Cartesian') or Magnitude ('m','Magnitude'). |
+| | **a1** | __*float,symbol*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Fist component. |
+| | **a2** | __*float,symbol*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Second component. |
+| | **a3** | __*float,symbol*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Third component. |
+| | **pointOfAction** | __*tuple*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Tuple defining point upon which force is acting. |
+| | **tol** | __*float, optional*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Tolerance for rounding values while defining object. |
+| **Returns:** | **None** : __*None*__ |
+| **Raises:** | __*None*__ |
 
 ### disp
 
-text
+**disp(**_self_**)**
+
+Prints string describing vector.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **self** : __*self*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; N/A |
+| **Returns:** | **None** : __*None*__ |
+| **Raises:** | __*None*__ |
 
 ### add
 
-text
+**add(**_f1,f2_)**
+
+Adds two vectors.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **f1, f2** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The two vectors to be added. |
+| **Returns:** | **<Vector>** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The summation of the two vectors. |
+| **Raises:** | __*None*__ |
 
 ### mag
 
-text
+**mag(**_self_**)**
+
+Returns the magnitude of the vector.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **self** : __*self*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;N/A |
+| **Returns:** | **<float>** : __*float*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The magnitude of the vector. |
+| **Raises:** | __*None*__ |
 
 ### dot
 
-text
+**dot(**_f1, f2_**)**
+
+Dot product of two vectors.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **f1, f2** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The vectors to be dotted together. |
+| **Returns:** | **<float>** : __*float*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The dot product of the two vectors. |
+| **Raises:** | __*None*__ |
 
 ### cross
 
-text
+**cross(**_f1, f2_**)**
+
+Cross product of two vectors.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **f1, f2** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The vectors to be crossed together. |
+| **Returns:** | **<float>** : __*float*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The cross product of the two vectors. |
+| **Raises:** | __*None*__ |
 
 ### unit
 
-text
+**unit(**_self_**)**
+
+Returns a unit vector pointing in the same direction as the vector.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **self** : __*self*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;N/A |
+| **Returns:** | **<Vector>** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The unit vector |
+| **Raises:** | __*None*__ |
 
 ### scalarMult
 
-text
+**scalarMult(**_v, s_**)**
+
+Multiplies a vector by a scalar.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **v** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The vector to be scaled. |
+| | **s** | __*float*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The value by which to scale the vector. |
+| **Returns:** | **<Vector>** : __*Vector*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The scaled vector. |
+| **Raises:** | __*None*__ |
 
 ### addOrigin
 
-text
+**addOrigin(**_self,point_**)**
+
+Redefines the point at which the vector acts without changing magnitude of vector.
+
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **self** : __*self*__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp;N/A |
+| | **point** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### addComps
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### getPointOfAction
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### getEndpoint
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### getComps
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ## Load
 
 ### __init__
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### getForce
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ## Truss
 
 ### __init__
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### generateMembers
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### showMembers
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### addSupports
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### getForcesOnPoint
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### addExtForces
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### getAdjacentJoints
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### solveByJoints
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
+
+## Methods
 
 ### sumForces
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### sumMoments
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### solve
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### gaussElim
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### deg2Rad
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
 
 ### shearMomentDiagram
 
-text
+|                 |                                     |
+|-----------------|-------------------------------------|
+| **Parameters:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| | **** | __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Returns:** | **** : __**__ |
+| | &nbsp;&nbsp;&nbsp;&nbsp; |
+| **Raises:** | __**__ |
