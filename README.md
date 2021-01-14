@@ -71,12 +71,15 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 ###### Python
 
 [Python](https://www.python.org/downloads/)
+
 Here is the download link for Python from the official website. Follow the instructions there for a successful download.
 
 ###### Anaconda
 
 [Anaconda](https://www.anaconda.com/products/individual)
+
 Here is the download link for Anaconda from their website. Follow the instructions there for a successful download.
+
 *One note of importance: Anaconda will override the default Python libraries, so installing libraries with Anaconda is different than vanilla Python. Just search Google for 'conda install [package name]' for the install commands.*
 
 ###### This Repository
