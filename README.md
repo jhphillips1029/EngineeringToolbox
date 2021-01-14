@@ -1,6 +1,6 @@
 # EngineeringToolbox
 
-###Table of Contents
+### Table of Contents
 * [Overview](#overview)
 	* [Updates](#updates)
 	* [History](#history)
@@ -28,5 +28,24 @@ This helped me see problems in other classes that could be simplified with compl
 
 | Course  |  Name | Description of Code|
 |---------|-------|--------------------|
-| EGEN201 |Statics|Solving statically determinate setups, trusses, and shear-moment diagrams|
-| EMEC250 |Materials Lab| stuff |
+| EGEN201 | Statics | Solving statically determinate setups, trusses, and shear-moment diagrams |
+| EMEC250 | Materials Lab | Basic identification of linear portion of the stress strain curve |
+| EELE250 | Circuits | Generates LaTex Circuit diagrams |
+| EMEC341 | Adv. Mechanics | I honestly don't remember as of this writing |
+| EMEC320 | Thermo I | Wiley data tables and automatic interpolation when pulling data from tables |
+
+### Using the Code
+
+text
+
+#### Learning Python
+
+text, links
+
+#### Downloading
+
+text
+
+#### Importing a Module
+
+text
