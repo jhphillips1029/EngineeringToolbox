@@ -75,6 +75,9 @@ You don't necessarily need to be an expert in Python to be able to use this code
 
 4. [TutorialsPoint For Python](https://www.tutorialspoint.com/python/index.htm)
 	* Another source I generally use for checking syntax and such.
+	
+5. [StackOverflow](https://stackoverflow.com/)
+	* StackOverflow is pretty much your default source for debugging, troubleshooting, and figuring out very specific syntax problems. It is the most powerful too you'll have if you choose to dig deeper into any programming language.
 
 #### Downloading
 
