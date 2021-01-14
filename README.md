@@ -31,7 +31,7 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
-_14 Jan 2020:_ Folder descriptions added. APIs added for existing python modules.
+_14 Jan 2020_ **(APIs)**: Folder descriptions added. APIs added for existing python modules. [Learning Python](#learning-python) updated to include StackOverflow.
 
 #### History
 
