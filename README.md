@@ -1,6 +1,6 @@
 # EngineeringToolbox
 
-### Table of Contents
+## Table of Contents
 * [Overview](#overview)
 	* [Updates](#updates)
 	* [History](#history)
@@ -10,7 +10,7 @@
 	* [Downloading](#downloading)
 	* [Importing a Module](#importing-a-module)
 	
-### Overview
+## Overview
 
 This is a collection of code I have put together in my spare time. It oringinates from coursework completed in the Mechanical Engineering program at Montana State University. I have made this code available for anyone it may help; however, I do not condone cheating or any practices that might violate MSU's Student Code of Conduct or similar documents at other universities or institutes of higher learning. Basically, just don't cheat.
 
@@ -34,7 +34,7 @@ This helped me see problems in other classes that could be simplified with compl
 | EMEC341 | Adv. Mechanics | I honestly don't remember as of this writing |
 | EMEC320 | Thermo I | Wiley data tables and automatic interpolation when pulling data from tables |
 
-### Using the Code
+## Using the Code
 
 text
 
