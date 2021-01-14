@@ -26,11 +26,11 @@ Principle stresses for a state of stress
 |                 |                                     |
 |-----------------|-------------------------------------|
 | **Parameters:** | **stressTensor** : __*array_like*__ |
-| | &nbsp;Input arrays describing state of stress |
+| | &nbsp;&nbsp;&nbsp;&nbsp;Input arrays describing state of stress |
 | | **method** | __*string, optional*__ |
-| | &nbsp;The method with which to determine principle stresses. Default is the eigenvalue approach.
+| | &nbsp;&nbsp;&nbsp;&nbsp;The method with which to determine principle stresses. Default is the eigenvalue approach.
 | **Returns:** | **principle_stresses** : __*ndarray*__ |
-| | &nbsp;The principle stresses |
+| | &nbsp;&nbsp;&nbsp;&nbsp;The principle stresses |
 
 ### stressInvariants
 
