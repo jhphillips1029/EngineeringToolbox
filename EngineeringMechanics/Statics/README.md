@@ -181,7 +181,7 @@ Redefines the point at which the vector acts without changing magnitude of vecto
 | | **point** : __*list_like*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Point defining new point of action. |
 | **Returns:** | **None** : __*None*__ |
-| **Raises:** | __**__ |
+| **Raises:** | __*None*__ |
 
 ### addComps
 
