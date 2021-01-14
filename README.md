@@ -1,6 +1,7 @@
 # EngineeringToolbox
 
 ## Table of Contents
+* [WIP Notes](#wip-notes)
 * [Overview](#overview)
 	* [Updates](#updates)
 	* [History](#history)
@@ -12,6 +13,33 @@
 		* [Anaconda](#anaconda)
 		* [This Repository](#this-repository)
 	* [Importing a Module](#importing-a-module)
+	
+## WIP Notes
+
+* EngineeringMechanics
+	* AdMech
+		* Convert to solver file
+	* APIs
+		* Necessary in all sub-folders
+	* README.md
+		* Description of sub-folders
+* Materials
+	* APIs
+		* Necessary in all sub-folders
+	* README.md
+		* Description of sub-folders
+* Miscellaneous
+	* Stats
+		* Convert to solver file
+	* APIs
+		* Necessary in all sub-folders
+	* README.md
+		* Description of sub-folders
+* Thermodynamics
+	* APIs
+		* Necessary in all sub-folders
+	* README.md
+		* Necessary in all sub-folders
 	
 ## Overview
 
