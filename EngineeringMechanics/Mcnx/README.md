@@ -20,6 +20,10 @@ This module requires the following modules to be installed already:
 
 ### principleStresses
 
+**principleStresses(**_stressTensor,method='eigen'_**)**
+
+Determines the principle stresses given a 3x3 tensor describing the state of stress.
+
 |                 |                                     |
 |-----------------|-------------------------------------|
 | **Parameters:** | **stressTensor** : __*array_like*__ |
@@ -37,7 +41,7 @@ This module requires the following modules to be installed already:
 | **Parameters:** | **stressTensor** : __*array_like*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Input arrays describing state of stress. |
 | **Returns:** | **I** : __*list*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp;  |
+| | &nbsp;&nbsp;&nbsp;&nbsp;List of the stress invariants, in order. |
 | **Raises:** | __*None*__ |
 
 ### octohedralStresses
@@ -75,7 +79,6 @@ This module requires the following modules to be installed already:
 | | **high** | __*integer*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;The higher index of the portion of the array to be sorted. |
 | **Returns:** | **None** : __*None*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Raises:** | __*None*__ |
 
 ### generateMohrsCircle
@@ -133,6 +136,5 @@ This module requires the following modules to be installed already:
 | | **units** | __*string, optional*__ |
 | | &nbsp;&nbsp;&nbsp;&nbsp;Which units to label in images generated. Default is 'MPa'. |
 | **Returns:** | **None** : __*None*__ |
-| | &nbsp;&nbsp;&nbsp;&nbsp; |
 | **Raises:** | __*None*__ |
 
