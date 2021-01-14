@@ -242,9 +242,9 @@ def sumMoments(point, forces, moments):
 
 def solve(eqs, u, slns=None, subs=None, show=False, solver='default'):
     if len(eqs) != len(u) :
-        raise("Number of equations and number of variables must be the same.")
+        raise TypeError("Number of equations and number of variables must be the same.")
     if slns!=None and len(eqs)!=len(slns) :
-        raise("Number of equations and number of solutions must be the same")
+        raise TypeError("Number of equations and number of solutions must be the same")
     if slns == None :
         slns = np.zeros((len(u),1))
     A = np.zeros((len(u),len(u)))
