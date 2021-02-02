@@ -98,4 +98,4 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 EngineeringToolbox is now available through PyPI! Use the command below to install it!
 
-`pip install EngineeringToolbox`
+`python3 -m pip install EngineeringToolbox`
