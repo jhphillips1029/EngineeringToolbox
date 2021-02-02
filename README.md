@@ -96,6 +96,4 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 ##### This Repository
 
-'''python3
-pip install EngineeringToolbox
-'''
+`pip install EngineeringToolbox`
