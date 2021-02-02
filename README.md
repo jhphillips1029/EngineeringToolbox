@@ -96,4 +96,6 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 ##### This Repository
 
+EngineeringToolbox is now available through PyPI! Use the command below to install it!
+
 `pip install EngineeringToolbox`
