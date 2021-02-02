@@ -1,5 +1,7 @@
 # StaticsSolver API
 
+[Back](../../README.md)
+
 ### Table of Contents
 * [Dependencies](#dependencies)
 * **[Vector](#vector)**
