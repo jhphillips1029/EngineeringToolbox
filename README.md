@@ -12,18 +12,17 @@
 		* [Python](#python)
 		* [Anaconda](#anaconda)
 		* [This Repository](#this-repository)
-	* [Importing a Module](#importing-a-module)
 	
 ## WIP Notes
 
-* EngineeringMechanics
-	* AdMech
-		* Convert to solver file
-		* API
-* Miscellaneous
-	* Stats
-		* Convert to solver file
-		* API
+* mechanics
+	* admech
+		* Add file
+		* Write API
+* miscellaneous
+	* stats
+		* Add file
+		* Write API
 	
 ## Overview
 
@@ -97,8 +96,6 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 ##### This Repository
 
-If you scroll back up to the top of the page, you will see a prominent green button labeled 'Code'. Click it, and on the drop down, choose 'Download Zip'. Download this to your workspace folder and unzip it.
-
-#### Importing a Module
-
-To import one of the modules, simply make sure it is in the same folder as the code you are importing it into.
+'''python3
+pip install EngineeringToolbox
+'''
