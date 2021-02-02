@@ -31,7 +31,9 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
-_14 Jan 2020_ **(APIs)**: Folder descriptions added. APIs added for existing python modules. [Learning Python](#learning-python) updated to include StackOverflow.
+_02 Feb 2021_ **(PyPI Organizing)**: Rearranged file architecture to conform to PyPI standards for future release through PyPI. Included license information for future PyPI release. Fixed typos and descriptions of missing folders in various README.md files.
+
+_14 Jan 2021_ **(APIs)**: Folder descriptions added. APIs added for existing python modules. [Learning Python](#learning-python) updated to include StackOverflow.
 
 #### History
 
@@ -58,7 +60,7 @@ As stated before, I do not condone cheating or any other practice that would vio
 
 If you already know basic Python, you should be more or less ready to go; however, if you are still pretty green and don't even know/understand the basics of programming as (hopefully) taught in EMEC203, I have linked some Python tutorials below.
 
-If you have already taken EMEC203, 
+If you have already taken EMEC203, I would recommend seeing the MATLAB to Python Primer below. Otherwise, I would recommend following the w3schools Tutorial.
 
 #### Learning Python
 
@@ -85,15 +87,11 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 ##### Python
 
-[Python](https://www.python.org/downloads/)
-
-Here is the download link for Python from the official website. Follow the instructions there for a successful download.
+[Here](https://www.python.org/downloads/) is the download link for Python from the official website. Follow the instructions there for a successful download.
 
 ##### Anaconda
 
-[Anaconda](https://www.anaconda.com/products/individual)
-
-Here is the download link for Anaconda from their website. Follow the instructions there for a successful download.
+[Here](https://www.anaconda.com/products/individual) is the download link for Anaconda from their website. Follow the instructions there for a successful download.
 
 *One note of importance: Anaconda will override the default Python libraries, so installing libraries with Anaconda is different than vanilla Python. Just search Google for 'conda install [package name]' for the install commands.*
 
