@@ -31,7 +31,7 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
-_02 Feb 2021_ **(PyPI Organizing)**: Rearranged file architecture to conform to PyPI standards for future release through PyPI. Included license information for future PyPI release. Fixed typos and descriptions of missing folders in various README.md files.
+_02 Feb 2021_ **(PyPI Organizing)**: Rearranged file architecture to conform to PyPI standards for release through PyPI. Included license information for PyPI release. Fixed typos and descriptions of missing folders in various README.md files.
 
 _14 Jan 2021_ **(APIs)**: Folder descriptions added. APIs added for existing python modules. [Learning Python](#learning-python) updated to include StackOverflow.
 
