@@ -30,7 +30,7 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
-_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool, linked it to main APIs page, added Windows command for pip installation.
+_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool, linked it to main APIs page, added Windows command for pip installation, and updated class list.
 
 _02 Feb 2021_ **(APIs2)**: Added table of contents to APIs/README.md and 'Back' links to each API page.
 
@@ -52,12 +52,11 @@ As stated before, I do not condone cheating or any other practice that would vio
 
 | Course  |  Name | Description of Code|
 |---------|-------|--------------------|
-| EGEN201 | Statics | Solving statically determinate setups, trusses, and shear-moment diagrams |
+| EGEN201 | Statics | Solving statically determinate beams, trusses, and shear-moment diagrams |
 | EMEC250 | Materials Lab | Basic identification of linear portion of the stress strain curve |
 | EELE250 | Circuits | Generates LaTex Circuit diagrams |
-| EMEC341 | Adv. Mechanics | I honestly don't remember as of this writing |
 | EMEC320 | Thermo I | Wiley data tables and automatic interpolation when pulling data from tables |
-| EGEN350 | Appl Data Analysis | Generalized probability function |
+| EGEN310 | Multidisciplinary Engineering Design | 'Sophisticated' computer program for solving parts of MIT's Delta Design Game |
 
 ## Using the Code
 
