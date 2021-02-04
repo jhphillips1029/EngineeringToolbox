@@ -30,7 +30,7 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
-_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool.
+_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool, linked it to main APIs page, added Windows command for pip installation.
 
 _02 Feb 2021_ **(APIs2)**: Added table of contents to APIs/README.md and 'Back' links to each API page.
 
@@ -102,4 +102,8 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 EngineeringToolbox is now available through PyPI! Use the command below to install it!
 
+For Windows: <br/>
+`py3 -m pip install EngineeringToolbox`
+
+For OS X/Linux: <br/>
 `python3 -m pip install EngineeringToolbox`
