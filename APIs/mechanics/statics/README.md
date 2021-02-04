@@ -1,4 +1,4 @@
-# StaticsSolver API
+# Statics API
 
 [Back](../../README.md)
 

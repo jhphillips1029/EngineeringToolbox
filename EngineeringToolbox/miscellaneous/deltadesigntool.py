@@ -66,7 +66,7 @@ class Deltoid:
     def center(self):
         return [self.a+0.5,self.b+self.o*3**0.5/6]
     
-    def mark(self,tag,value):
+    def mark(self,tag,value):##
         self.tags[tag] = value
         
 def determine_adjacencies(cluster,allow_repeat=False):

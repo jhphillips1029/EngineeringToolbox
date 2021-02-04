@@ -30,6 +30,8 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
+_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool.
+
 _02 Feb 2021_ **(APIs2)**: Added table of contents to APIs/README.md and 'Back' links to each API page.
 
 _02 Feb 2021_ **(PyPI Organizing)**: Rearranged file architecture to conform to PyPI standards for release through PyPI. Included license information for PyPI release. Fixed typos and descriptions of missing folders in various README.md files.
