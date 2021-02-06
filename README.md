@@ -30,6 +30,8 @@ This is a collection of code I have put together in my spare time. It oringinate
 
 #### Updates
 
+_04 Feb 2021_ **(v0.0.3)**: Update includes modules for Advanced Mechanics of Materials (admech) and Applied Engineering Data Analysis (stats). APIs included for new modules.
+
 _04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool, linked it to main APIs page, added Windows command for pip installation, and updated class list.
 
 _02 Feb 2021_ **(APIs2)**: Added table of contents to APIs/README.md and 'Back' links to each API page.
@@ -57,6 +59,8 @@ As stated before, I do not condone cheating or any other practice that would vio
 | EELE250 | Circuits | Generates LaTex Circuit diagrams |
 | EMEC320 | Thermo I | Wiley data tables and automatic interpolation when pulling data from tables |
 | EGEN310 | Multidisciplinary Engineering Design | 'Sophisticated' computer program for solving parts of MIT's Delta Design Game |
+| EGEN350 | Applied Engineering Data Analysis | Generalized probability function and helper functions |
+| EMEC341 | Adv Mechanics of Materials | Functions to convert between tensors and vectors and calculators for compliance and stiffness matrices |
 
 ## Using the Code
 

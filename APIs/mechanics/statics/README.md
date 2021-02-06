@@ -46,9 +46,9 @@ This module requires the following modules to be installed already:
 
 ## Vector
 
-### \__init__
+### \_\_init\_\_
 
-**\__init__(**_self, vecType, a1, a2, a3, pointOfAction, tol=1e-12_**)**
+**\_\_init\_\_(**_self, vecType, a1, a2, a3, pointOfAction, tol=1e-12_**)**
 
 Constructor method for Vector class.
 
