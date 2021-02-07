@@ -1,52 +1,20 @@
 # EngineeringToolbox
 
 ## Table of Contents
-* [WIP Notes](#wip-notes)
-* [Overview](#overview)
-	* [Updates](#updates)
-	* [History](#history)
+* [About](#about)
 	* [Courses Covered](#courses-covered)
+	* [History](#history)
 * [Using the Code](#using-the-code)
 	* [Learning Python](#learning-python)
 	* [Downloading](#downloading)
 		* [Python](#python)
 		* [Anaconda](#anaconda)
 		* [This Repository](#this-repository)
+* [Update History](#update-history)
 	
-## WIP Notes
-
-* mechanics
-	* admech
-		* Add file
-		* Write API
-* miscellaneous
-	* stats
-		* Add file
-		* Write API
-	
-## Overview
+## About
 
 This is a collection of code I have put together in my spare time. It oringinates from coursework completed in the Mechanical Engineering program at Montana State University. I have made this code available for anyone it may help; however, I do not condone cheating or any practices that might violate MSU's Student Code of Conduct or similar documents at other universities or institutes of higher learning. Basically, just don't cheat. Be a good engineer.
-
-#### Updates
-
-_04 Feb 2021_ **(v0.0.3)**: Update includes modules for Advanced Mechanics of Materials (admech) and Applied Engineering Data Analysis (stats). APIs included for new modules.
-
-_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool, linked it to main APIs page, added Windows command for pip installation, and updated class list.
-
-_02 Feb 2021_ **(APIs2)**: Added table of contents to APIs/README.md and 'Back' links to each API page.
-
-_02 Feb 2021_ **(PyPI Organizing)**: Rearranged file architecture to conform to PyPI standards for release through PyPI. Included license information for PyPI release. Fixed typos and descriptions of missing folders in various README.md files.
-
-_14 Jan 2021_ **(APIs)**: Folder descriptions added. APIs added for existing python modules. [Learning Python](#learning-python) updated to include StackOverflow.
-
-#### History
-
-The code contained here was written to help me complete assignments in the ME program at MSU. It began with the realization that most of the problems in EGEN201 (Statics) were fairly repetitive and should be easily codable. I ended up going overboard and devoting a substantial amount of time to writing a function that would solve for reaction forces for any statically determinate system.
-
-This helped me see problems in other classes that could be simplified with complex-ish code. Why do something for 6 minutes if you could automate it in 6 hours? You only need 10 repetitions to break even. I proceeded to create "solvers" for common problems for several other classes and continued to do so the next semester.
-
-The original repository, having originated from the engineering mechanics series was named engineeringMechanics, and has since been moved to private and replaced by this repository with better file architecture and an attempt at better layman-style explanations of the code.
 
 #### Courses Covered
 
@@ -61,6 +29,14 @@ As stated before, I do not condone cheating or any other practice that would vio
 | EGEN310 | Multidisciplinary Engineering Design | 'Sophisticated' computer program for solving parts of MIT's Delta Design Game |
 | EGEN350 | Applied Engineering Data Analysis | Generalized probability function and helper functions |
 | EMEC341 | Adv Mechanics of Materials | Functions to convert between tensors and vectors and calculators for compliance and stiffness matrices |
+
+#### History
+
+The code contained here was written to help me complete assignments in the ME program at MSU. It began with the realization that most of the problems in EGEN201 (Statics) were fairly repetitive and should be easily codable. I ended up going overboard and devoting a substantial amount of time to writing a function that would solve for reaction forces for any statically determinate system.
+
+This helped me see problems in other classes that could be simplified with complex-ish code. Why do something for 6 minutes if you could automate it in 6 hours? You only need 10 repetitions to break even. I proceeded to create "solvers" for common problems for several other classes and continued to do so the next semester.
+
+The original repository, having originated from the engineering mechanics series was named engineeringMechanics, and has since been moved to private and replaced by this repository with better file architecture and an attempt at better layman-style explanations of the code.
 
 ## Using the Code
 
@@ -99,8 +75,6 @@ Here are instructions on downloading Python, Anaconda, and this repository. Obvi
 
 [Here](https://www.anaconda.com/products/individual) is the download link for Anaconda from their website. Follow the instructions there for a successful download.
 
-*One note of importance: Anaconda will override the default Python libraries, so installing libraries with Anaconda is different than vanilla Python. Just search Google for 'conda install [package name]' for the install commands.*
-
 ##### This Repository
 
 EngineeringToolbox is now available through PyPI! Use the command below to install it!
@@ -110,3 +84,17 @@ For Windows: <br/>
 
 For OS X/Linux: <br/>
 `python3 -m pip install EngineeringToolbox`
+
+## Update History
+
+_07 Feb 2021_ **(README)**: Rearranged the main README.md file for better clarity and removed WIP Notes..
+
+_04 Feb 2021_ **(v0.0.3)**: Update includes modules for Advanced Mechanics of Materials (admech) and Applied Engineering Data Analysis (stats). APIs included for new modules.
+
+_04 Feb 2021_ **(APIs3)**: Added API for deltadesigntool, linked it to main APIs page, added Windows command for pip installation, and updated class list.
+
+_02 Feb 2021_ **(APIs2)**: Added table of contents to APIs/README.md and 'Back' links to each API page.
+
+_02 Feb 2021_ **(PyPI Organizing)**: Rearranged file architecture to conform to PyPI standards for release through PyPI. Included license information for PyPI release. Fixed typos and descriptions of missing folders in various README.md files.
+
+_14 Jan 2021_ **(APIs)**: Folder descriptions added. APIs added for existing python modules. [Learning Python](#learning-python) updated to include StackOverflow.
