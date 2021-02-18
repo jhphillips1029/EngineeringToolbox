@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="EngineeringToolbox", # Replace with your own username
-    version="0.0.3",
+    version="0.0.4",
     author="Joshua H. Phillips",
     description="Package containing python programs for common problems in mechanical engineering curriculum.",
     long_description=long_description,
