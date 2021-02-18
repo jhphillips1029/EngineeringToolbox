@@ -87,7 +87,9 @@ For OS X/Linux: <br/>
 
 ## Update History
 
-_07 Feb 2021_ **(README)**: Rearranged the main README.md file for better clarity and removed WIP Notes..
+_18 Feb 2021_ **(catt)**: Fixed an error where thermodynamics tables were not being downloaded. Added dependencies list to setup.py.
+
+_07 Feb 2021_ **(README)**: Rearranged the main README.md file for better clarity and removed WIP Notes.
 
 _04 Feb 2021_ **(v0.0.3)**: Update includes modules for Advanced Mechanics of Materials (admech) and Applied Engineering Data Analysis (stats). APIs included for new modules.
 

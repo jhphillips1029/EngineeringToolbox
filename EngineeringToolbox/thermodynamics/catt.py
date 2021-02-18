@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import numpy as np
+import os
 
 def getState(temp=None,press=None,fluid="water",state="SLSV",tables="Wiley",preferTemp=False,debug=False,generic=False,Sat=-1.0e-5,qual=1.0):
     # Evaluate input for errors
@@ -28,13 +29,16 @@ def getState(temp=None,press=None,fluid="water",state="SLSV",tables="Wiley",pref
     if press != None:
         press = float(press)
         
+    
+    prefix = os.path.abspath(__file__).replace("catt.py","")+"data_tables/"
+
     # Get corresponding data table(s)
     data_filename = "_".join([fluid,state,tables,"metric"])
     data = None
     if "sat_liq" in state:
-        data = pd.read_csv("data_tables/"+data_filename+".csv")
+        data = pd.read_csv(prefix+data_filename+".csv")
     else:
-        with open("data_tables/"+data_filename+".json") as f:
+        with open(prefix+data_filename+".json") as f:
             data = json.load(f)
             
     # Construct return
